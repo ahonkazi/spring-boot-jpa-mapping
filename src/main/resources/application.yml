@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: jpa-mapping
+  datasource:
+    username: root
+    password: ahon++
+    url: jdbc:mysql://localhost:3306/jpa_mapping
+    driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
